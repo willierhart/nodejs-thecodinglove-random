@@ -68,7 +68,7 @@ function getRandomEntryAsHtml(cb) {
     const pageUrl = entry.pageUrl;
 
     entry = "<!doctype html><head><meta charset=\"utf-8\"><meta http-equiv=\"Refresh\" content=\"10\"><title>TheCodingLove - Random</title><style>* { font-family: arial; font-size: 12px; }</style></head><body>";
-    entry += "<b style=\"font-size: 18px\">TheCodingLove Random Viewer</b><br><br><a href=\"" + pageUrl + "\" target=\"_blank\"><img src=\"" + imageUrl + "\" border=\"0\"></a><br><br><b style=\"font-size: 14px\">"+title+"</b><br><br><a href=\"" + pageUrl + "\" target=\"_blank\">"+pageUrl+"</a>";
+    entry += "<b style=\"font-size: 18px\">TheCodingLove Random</b><br><br><a href=\"" + pageUrl + "\" target=\"_blank\"><img src=\"" + imageUrl + "\" border=\"0\"></a><br><br><b style=\"font-size: 14px\">"+title+"</b><br><br><a href=\"" + pageUrl + "\" target=\"_blank\">"+pageUrl+"</a>";
     entry += "</body></html> ";
 
     cb(error, entry);
