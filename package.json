@@ -1,0 +1,19 @@
+{
+  "name": "thecodingloveonsteroids_random",
+  "version": "1.0.0",
+  "description": "Show random post from thecodinglove.com",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thecodinglove"
+  ],
+  "author": "Willi Erhart <willierhart@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.4",
+    "follow-redirects": "0.0.7"
+  }
+}
